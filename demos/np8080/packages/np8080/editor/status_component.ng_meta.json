@@ -7,57 +7,42 @@
         "5": false
       },
       {
-        "1": "package:np8080/document/textdocument.dart",
-        "5": false
-      },
-      {
-        "1": "package:np8080/editor/editor_component.dart",
+        "1": "dart:math",
         "5": false
       }
     ],
     "5": [
       {
-        "1": "AppComponent",
-        "7": [
-          {
-            "2": "EditorComponent"
-          }
-        ]
+        "1": "StatusComponent"
       }
     ],
-    "6": "app_component.dart",
+    "6": "status_component.dart",
     "7": [
       {
         "1": "package:angular2/core.template.dart",
         "4": "i0"
-      },
-      {
-        "1": "package:np8080/document/textdocument.template.dart",
-        "4": "i1"
-      },
-      {
-        "1": "package:np8080/editor/editor_component.template.dart",
-        "4": "i2"
       }
     ]
   },
   "type": {
-    "AppComponent": {
+    "StatusComponent": {
       "class": "Directive",
       "isComponent": true,
-      "selector": "my-app",
+      "selector": "text-status",
       "exportAs": null,
       "type": {
         "class": "Type",
-        "name": "AppComponent",
-        "moduleUrl": "asset:np8080/lib/app_component.dart",
+        "name": "StatusComponent",
+        "moduleUrl": "asset:np8080/lib/editor/status_component.dart",
         "prefix": null,
         "isHost": false,
         "value": null,
         "diDeps": []
       },
       "changeDetection": 5,
-      "inputs": {},
+      "inputs": {
+        "text": "text"
+      },
       "outputs": {},
       "hostListeners": {},
       "hostProperties": {},
@@ -65,8 +50,8 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "\n<plain-editor [note]=\"note1\"></plain-editor>",
-        "templateUrl": "asset:np8080/lib/app_component.html",
+        "template": "<div style=\"font-size: small\">Lines: {{lineCount}} Length: {{length}} Words: {{wordCount}}</div>",
+        "templateUrl": "asset:np8080/lib/editor/status_component.html",
         "styles": [],
         "styleUrls": [],
         "ngContentSelectors": []

@@ -1,16 +1,29 @@
-body {
+html, body {
     font-family: arial;
     background-color: black;
     color: greenyellow;
     font-size: 14pt;
+    width: 95%;
+}
+
+textarea {
+    background-color: #111111;
+    color: greenyellow;
+    font-size: 14pt;
+    border-color: blue;
+    width: 100%;
+}
+
+.appTitle {
+    font-size: smaller;
 }
 
 textarea {
     background-color: black;
-    color: greenyellow;
-    font-size: 14pt;
-    border-color: blue;
+    width: 95vw;
+    height: 91vh;
 }
-.appTitle{
-    font-size: smaller;
+
+button {
+    width: 80px;
 }

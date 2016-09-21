@@ -1,0 +1,7 @@
+<div *ngIf="note != null" style="min-height:100%">
+    <editor-toolbar [note]="note"></editor-toolbar>
+
+    <textarea [(ngModel)]="note.text" (keyup)="changeHandler()"></textarea>
+
+    <text-status text="{{note.text}}"></text-status>
+</div>
