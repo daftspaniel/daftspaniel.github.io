@@ -63,7 +63,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div>\n    <button (click)=\"downloadHandler()\">Download</button>\n    <button (click)=\"trimHandler()\">Trim</button>\n    <button (click)=\"aboutHandler()\">About</button>\n</div>",
+        "template": "<div class=\"toolbar\">\n    <button (click)=\"downloadHandler()\">Download</button>\n    <button (click)=\"trimHandler()\">Trim</button>\n    <button (click)=\"aboutHandler()\">About</button>\n</div>",
         "templateUrl": "asset:np8080/lib/toolbar/toolbar_component.html",
         "styles": [],
         "styleUrls": [],

@@ -60,7 +60,7 @@
       "lifecycleHooks": [],
       "template": {
         "encapsulation": 2,
-        "template": "<div *ngIf=\"note != null\" style=\"min-height:100%\">\n    <editor-toolbar [note]=\"note\"></editor-toolbar>\n\n    <textarea [(ngModel)]=\"note.text\" (keyup)=\"changeHandler()\"></textarea>\n\n    <text-status text=\"{{note.text}}\"></text-status>\n</div>",
+        "template": "<div *ngIf=\"note != null\" style=\"min-height:100%\">\n    <editor-toolbar [note]=\"note\"></editor-toolbar>\n\n    <textarea [(ngModel)]=\"note.text\" (keyup)=\"changeHandler()\" placeholder=\"Welcome to notepad8080! Click 'About' to learn more.\"></textarea>\n\n    <text-status [text]=\"note.text\" [modified]=\"note.lastModified\"></text-status>\n</div>",
         "templateUrl": "asset:np8080/lib/editor/editor_component.html",
         "styles": [],
         "styleUrls": [],
