@@ -12166,7 +12166,7 @@ this.P=new F.az(6,2,this,this.a0,null,null,null,null)
 p=R.q3(this.ab(6),this.P)
 y=new T.b8()
 this.R=y
-y=new Y.cQ(new Y.fI(),y,null,null,null)
+y=new Y.cQ(new Y.fI(),y,null,"",null)
 this.W=y
 u=this.P
 u.r=y
@@ -12346,12 +12346,10 @@ if(Q.z(this.h_,q)){this.W.e=q
 if(s==null)s=P.av(P.k,A.b7)
 s.j(0,"active",new A.b7(this.h_,q))
 this.h_=q}if(s!=null){v=this.W
-p=v.e
-if(p===!0||s.J(0,p)){p=v.c
+if(v.e===!0||s.J(0,"active")){p=v.c
 if(p==null){p=document.querySelector("#previewPane")
-v.c=p}J.qY(p,v.b.nE(v.d),v.a)}}if(this.fr===C.k&&!$.bH){v=this.W
-v.e=!1
-v.d=""}o=J.cv(this.fx.gaK())
+v.c=p}J.qY(p,v.b.nE(v.d),v.a)}}if(this.fr===C.k&&!$.bH)this.W.e=!1
+o=J.cv(this.fx.gaK())
 if(Q.z(this.jS,o)){this.ak.b=o
 this.jS=o}n=J.qv(this.fx.gaK())
 if(Q.z(this.jT,n)){this.ak.c=n
@@ -12501,7 +12499,7 @@ this.k3=new F.az(0,null,this,z,null,null,null,null)
 y=R.q3(this.ab(0),this.k3)
 z=new T.b8()
 this.k4=z
-z=new Y.cQ(new Y.fI(),z,null,null,null)
+z=new Y.cQ(new Y.fI(),z,null,"",null)
 this.r1=z
 x=this.k3
 x.r=z
@@ -12514,13 +12512,12 @@ return this.k3},
 al:function(a,b,c){if(a===C.t&&0===b)return this.k4
 if(a===C.I&&0===b)return this.r1
 return c},
-aE:function(){if(this.fr===C.k&&!$.bH){var z=this.r1
-z.e=!1
-z.d=""}this.aF()
+aE:function(){if(this.fr===C.k&&!$.bH)this.r1.e=!1
+this.aF()
 this.aG()},
 $asR:I.W},
 C1:{"^":"b:10;",
-$1:[function(a){return new Y.cQ(new Y.fI(),a,null,null,null)},null,null,2,0,null,24,"call"]}}],["","",,X,{"^":"",c_:{"^":"a;a,aB:b*,ke:c<",
+$1:[function(a){return new Y.cQ(new Y.fI(),a,null,"",null)},null,null,2,0,null,24,"call"]}}],["","",,X,{"^":"",c_:{"^":"a;a,aB:b*,ke:c<",
 gi:function(a){return J.ad(J.C(this.b))},
 gpJ:function(){return C.n.k(this.a.kK(this.b))},
 goJ:function(){return C.h.k(this.a.kI(this.b))}}}],["","",,A,{"^":"",
