@@ -11703,7 +11703,7 @@ this.k1.appendChild(p)
 x=y.createElement("div")
 this.rx=x
 this.k1.appendChild(x)
-this.rx.setAttribute("style","flex:2;overflow: none;height: calc(100vh - 60px);padding-bottom: 110px")
+this.rx.setAttribute("style","flex:2;overflow: none;height: calc(100vh - 60px);")
 o=document.createTextNode("\n    ")
 this.rx.appendChild(o)
 x=y.createElement("textarea")
@@ -12078,13 +12078,13 @@ y=document
 x=y.createElement("div")
 this.k1=x
 J.ce(z,x)
-this.k1.className="xstatusPanel"
+this.k1.className="statusPanel"
 w=document.createTextNode("\n    ")
 this.k1.appendChild(w)
 x=y.createElement("span")
 this.k2=x
 this.k1.appendChild(x)
-this.k2.className="xlhsStatus"
+this.k2.className="lhsStatus"
 x=document.createTextNode("")
 this.k3=x
 this.k2.appendChild(x)
@@ -12118,7 +12118,7 @@ X:function(a){var z,y,x,w
 z=document
 y=z.createElement("span")
 this.k1=y
-y.className="xrhsStatus"
+y.className="rhsStatus"
 y=document.createTextNode("")
 this.k2=y
 this.k1.appendChild(y)
