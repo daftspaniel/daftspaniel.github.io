@@ -40,7 +40,6 @@ textarea {
     color: #b8df42;
     overflow-y: scroll;
     overflow-x: none;
-    xvertical-align: top;
     width: 45%;
     font-size: 10pt;
     display: inline-block;
@@ -58,7 +57,7 @@ textarea {
     height: 25px;
     text-align: center;
     font-size: 10pt;
-    min-width: 120px;
+    min-width: 100px;
     margin-left: 12px;
 }
 
@@ -85,10 +84,11 @@ textarea {
 }
 
 .labelReadOnly {
+    top:0px;
+    left:2px;
     font-size: small;
-    height: 25px;
-    vertical-align: middle;
-    padding-top: 4px;
+    min-width: 120px;
+    margin-top:-10px;
 }
 
 .toolbarField {
@@ -116,13 +116,18 @@ textarea {
     border: 1px;
     margin: 0px;
     height: 25px;
-    min-width: 120px;
+    min-width: 100px;
+    font-weight: bolder;
+}
+
+.toolbarMenu:hover {
+    border-bottom: inset 1px floralwhite;
 }
 
 .srhsButtons {
-    flex: 1.1;
+    flex: 1;
     text-align: center;
-    margin-left: 20%;
+    xmargin-left: 20%;
 }
 
 .rhsStatus {
