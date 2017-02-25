@@ -1,8 +1,8 @@
 CACHE MANIFEST
-#V0.14
+#V3
 index.html
-style.css
 dialog.css
+style.css
 img/background.png
 img/github.png
 main.dart.js
