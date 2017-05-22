@@ -3891,6 +3891,7 @@ z.classList.add("note")
 z.draggable=!0
 z.contentEditable="true"
 this.b.appendChild(z)
+z.focus()
 y=J.bN(a)
 if(y.U(a,0)){x=this.a
 y=J.dp(x)
