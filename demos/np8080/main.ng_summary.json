@@ -13,6 +13,11 @@
       {
         "1": "package:np8080/app_component.dart",
         "5": false
+      },
+      {
+        "1": "package:pwa/client.dart",
+        "4": "pwa",
+        "5": false
       }
     ],
     "6": "main.dart"
