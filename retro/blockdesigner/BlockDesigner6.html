@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Dragon 32 / Dragon 64 / Text Screen Designer</title>
+    <link rel="stylesheet" type="text/css" href="BlockDesigner.css"/>
+    <script language="JavaScript" type="text/javascript" src="BlockDesigner.js"></script>
+    <script language="JavaScript" type="text/javascript" src="daftHTMLlib.js"></script>
+</head>
+
+<body onkeyup="keyUpEvent" ondragstart="return false" draggable="false"
+      ondragenter="event.dataTransfer.dropEffect='none'; event.stopPropagation(); event.preventDefault();"
+      ondragover="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();"
+      ondrop="event.dataTransfer.dropEffect='none';event.stopPropagation(); event.preventDefault();">
+
+&nbsp;<input type="button" value="CLS" onclick="clearBackground()" style="width:90px">
+&nbsp;
+<input type="button" value="Undo" onclick="performUndo()" style="width:90px">
+&nbsp;
+<input type="button" value="Grid" onclick="grid()" style="width:90px">
+&nbsp;
+<input type="button" value="BASIC" onclick="makeCode2();tgv('Codebox');TextEntryMode=1;" style="width:90px">
+&nbsp;
+<input type="button" value="BASIC-PRINT" onclick="makeCode4();tgv('Codebox');TextEntryMode=1;" style="width:90px">
+&nbsp;
+<input type="button" value="ASM" onclick="makeCode3();tgv('Codebox');TextEntryMode=1;" style="width:90px">
+&nbsp;
+
+<br/>
+&nbsp;
+<span id="curcolor" class="curcolorbox">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+<select name="ToolMenu" onchange="setTool(this.selectedIndex)" style="width:90px">
+    <option value="0" selected="true">Block</option>
+    <option value="1">Text</option>
+</select>
+<input type="text" value="A" id="UserText" style="width:120px" onblur="TextEntryMode=0;" onfocus="TextEntryMode=1;"/>
+&nbsp; Press ? for help
+<br/>
+<br/>
+
+<script lang="javascript">
+    document.writeln(Template());
+    drawPenButtons();
+</script>
+
+<script lang="javascript">
+
+    for (y = 0; y < 16; y++) {
+        for (i = 0; i < 32; i++) {
+            AT = ((y * 32) + i);
+            document.write("<div id=\"" + AT + "\" style=\"top:" + (110 + y * 20 ) + "px;left:" + (20 + i * 15) + "px;position:absolute;background-color:#00ffff;width:15px;height:20px;\"   onmouseup=\"MousePressed=false\" onmousedown=\"MousePressed=true;enterCell(" + i + "," + y + ")\" onmouseover=\"enterCell(" + i + "," + y + ")\"></div>");
+        }
+    }
+    ihu('GUI_Help', RenderHelpDiv());
+</script>
+
+
+<br/>
+<div id="outWindow" class="StatusBar">
+    <br/>
+</div>
+<div id="Codebox" class="Codeboxs Dropshadow">
+    <input type="button" value="Close" onclick="hide('Codebox');TextEntryMode = 0;"/> <br>
+    <textarea id="Output" style="width:800px;height:600px;">
+</textarea>
+    <div>
+
+</body>
+</html>

@@ -1,0 +1,98 @@
+.Suite_Help {
+    color: black;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+    font-size: smaller;
+    background: white;
+    top: 40px;
+    left: 50px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 1000;
+}
+
+.Codeboxs {
+    color: black;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 15px;
+    font-size: smaller;
+    background: white;
+    top: 10px;
+    left: 50px;
+    position: absolute;
+    visibility: hidden;
+    z-index: 100;
+    width: 800px;
+}
+
+.Dropshadow {
+    -moz-box-shadow: 0 0 30px 5px #999;
+    -webkit-box-shadow: 0 0 30px 5px #999;
+}
+
+.StatusBar {
+    position: absolute;
+    top: 430px;
+    left: 20px;
+}
+
+.curcolorbox {
+    background-color: black;
+    width: 120px;
+    border: inset;
+    border-width: 1px;
+    border-color: #333333;
+}
+
+.greyborder {
+    border: inset;
+    border-width: 5px;
+    border-color: #B8A7AB;
+}
+
+/* Results Table*/
+body {
+    font-family: monospace;
+    font-size: 14pt;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+table {
+    border-collapse: collapse;
+    border: 1px;
+    border-color: #999999;
+}
+
+td {
+    border: 1px solid;
+    border-color: #888808;
+    font-family: monospace;
+    font-size: 8pt;
+    padding: 5px;
+}
+
+th {
+    background: #6699ff;
+    border: 1px solid;
+    border-color: #999999;
+    font-family: monospace;
+    font-size: 8pt;
+    padding: 5px;
+    color: #eeeeee;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: rgba(215, 215, 215, 0.1);
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(200, 200, 200, 0.3);
+}
