@@ -4,7 +4,7 @@ html, body {
     overflow-x: hidden;
     overflow-y: hidden;
     margin: 0px;
-    background-color: #9ed3d9;
+    background-color: #4d50d9;
 }
 
 .menuItem {
@@ -112,7 +112,6 @@ textarea {
     border-top-left-radius: 9px;
 
 }
-
 
 .toolbarField {
     font-size: 8pt;
@@ -243,6 +242,10 @@ button {
     margin: 0px;
     font-weight: bold;
     height: 25px;
+}
+
+.wideButton {
+    width: 160px;
 }
 
 .menuSeparator {

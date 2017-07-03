@@ -14,7 +14,6 @@
     width: 700px;
     margin: 100px auto;
     border: 1px solid whitesmoke;
-    z-index: 1010;
     text-align: center;
 }
 
@@ -44,4 +43,10 @@
     text-align: center;
     width: 22px;
     border-radius: 4px;
+}
+
+.previewText {
+    height: 100px;
+    width: 70%;
+    background-color: cornsilk;
 }
