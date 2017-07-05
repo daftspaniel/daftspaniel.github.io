@@ -3782,7 +3782,7 @@ else if(q==="rgb(255, 255, 255)")z+="207"
 else if(q==="rgb(0, 255, 255)")z+="223"
 else if(q==="rgb(255, 0, 255)")z+="239"
 else if(q==="rgb(255, 165, 0)")z+="255"
-if(s!==31)z+=","}y+=10}return'10 CLEAR2000:CLS\r\n20 FOR T=1024 TO 1535\r\n30 READ A:POKE T,A\r\n90 NEXT T\r\n100 A$=INKEY$:IFA$="" AND A$<>"-" THEN100\r\n999 END";'+z+"\r\n"}},fd:{"^":"c:3;a",
+if(s!==31)z+=","}y+=10}return'10 CLEAR2000:CLS\r\n20 FOR T=1024 TO 1535\r\n30 READ A:POKE T,A\r\n90 NEXT T\r\n100 A$=INKEY$:IFA$="" THEN100\r\n999 END'+z+"\r\n"}},fd:{"^":"c:3;a",
 $1:function(a){if(window.confirm("Are you sure?")===!0)this.a.$1($.ag)}},fe:{"^":"c:3;a",
 $1:function(a){return this.a.$0()}},ff:{"^":"c:3;",
 $1:function(a){return C.F.dj(window,"https://github.com/daftspaniel/blockdesigner","git")}},fg:{"^":"c:3;a",
