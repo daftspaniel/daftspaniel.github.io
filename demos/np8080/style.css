@@ -57,7 +57,21 @@ textarea {
 }
 
 .miniToolbarButton {
-    width: 30px;
+    width: 60px;
+    color: #9ed3d9;
+    background-color: #2B2926;
+    border: 0px;
+    margin: 0px;
+    height: 26px;
+    text-align: center;
+    font-size: 10pt;
+    min-width: 40px;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-right: 5px;
+}
+.wideToolbarButton {
+    width: 90px;
     color: #9ed3d9;
     background-color: #2B2926;
     border: 0px;
@@ -227,25 +241,10 @@ button {
     border-bottom: solid 1px #606993;
     display: flex;
     height: 30px;
-    /*margin-left: -5px;*/
     margin-right: -12px;
     margin-bottom: 0px;
     padding: 1px;
     width: 110%;
-}
-
-.actionButton {
-    background-color: #58c800;
-    width: 80px;
-    color: white;
-    border: 0px;
-    margin: 0px;
-    font-weight: bold;
-    height: 25px;
-}
-
-.wideButton {
-    width: 160px;
 }
 
 .menuSeparator {
