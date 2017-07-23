@@ -57,7 +57,7 @@ textarea {
 }
 
 .miniToolbarButton {
-    width: 60px;
+    width: 70px;
     color: #9ed3d9;
     background-color: #2B2926;
     border: 0px;
@@ -70,6 +70,7 @@ textarea {
     margin-top: 2px;
     margin-right: 5px;
 }
+
 .wideToolbarButton {
     width: 90px;
     color: #9ed3d9;
@@ -297,4 +298,15 @@ button {
 .dark-document {
     background-color: black;
     color: #00DC00;
+}
+
+.closeEditorTabX {
+    float: right;
+    background-color: #C3D0B9;
+    border-radius: 4px;
+    padding: 1px;
+    font-size: smaller;
+    width: 10px;
+    text-align: center;
+    color: rebeccapurple;
 }
