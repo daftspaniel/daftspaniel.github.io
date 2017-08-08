@@ -5393,7 +5393,7 @@ k:function(a){return this.a.href}}}],["","",,K,{"^":"",
 kl:[function(a,b){return $.$get$Q().cs(0,a,b)},function(a){return K.kl(a,null)},"$2","$1","ez",2,2,30,2,0,23]}],["","",,N,{"^":"",
 og:[function(){var z=new X.iC(new X.fy([]),null,!0,!0,null,null,null)
 z.b=$.$get$er()
-P.bx("Running PWA, version: 2017-06-12T18:40:31.999Z")
+P.bx("Running PWA, version: 2017-08-08T18:40:31.999Z")
 X.jX(z)},"$0","eu",0,0,2]},1]]
 setupProgram(dart,0)
 J.p=function(a){if(typeof a=="number"){if(Math.floor(a)==a)return J.dc.prototype
@@ -5663,7 +5663,7 @@ try{(void 0).$method$($argumentsExpr$)}catch(z){return z.message}}())},"dF","$ge
 z=P.b0
 y=new P.K(0,P.iE(),null,[z])
 y.d6(null,z)
-return y},"b9","$get$b9",function(){return[]},"er","$get$er",function(){return["./","./dialog.css","./favicon.ico","./img/background.png","./img/github.png","./img/ico/favicon-16x16.png","./img/ico/favicon-32x32.png","./img/ico/favicon-96x96.png","./img/ico/favicon.ico","./main.dart.js","./pwa.dart.js","./manifest.json","./style.css"]},"e3","$get$e3",function(){return["https://fonts.google.com/","https://fonts.googleapis.com/","https://fonts.gstatic.com/"]},"dw","$get$dw",function(){return new L.i3(self.self,null,null,null,null,null,null,null,null,null,null,null)},"Q","$get$Q",function(){return $.$get$dw()}])
+return y},"b9","$get$b9",function(){return[]},"er","$get$er",function(){return["./","./dialog.css","./favicon.ico","./img/background.png","./img/github.png","./img/ico/favicon-16x16.png","./img/ico/favicon-32x32.png","./img/ico/favicon-96x96.png","./img/ico/favicon.ico","./main.dart.js","./pwa.dart.js","./manifest.json","./css/style.css","./css/dialog.css","./css/normalize.css"]},"e3","$get$e3",function(){return["https://fonts.google.com/","https://fonts.googleapis.com/","https://fonts.gstatic.com/"]},"dw","$get$dw",function(){return new L.i3(self.self,null,null,null,null,null,null,null,null,null,null,null)},"Q","$get$Q",function(){return $.$get$dw()}])
 I=I.$finishIsolateConstructor(I)
 $=new I()
 init.metadata=["request","error",null,"event","stackTrace","value","result","_","e","x","data","invocation","each","object","arg3","arg2","sender","arg4","errorCode","arg1","element","numberOfArguments","arg","requestInit","b","permissions","key","closure","response","a","resolve","reject","item","callback","arguments","isolate"]
