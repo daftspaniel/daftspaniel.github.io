@@ -9,16 +9,16 @@ html, body {
 
 .menuItem {
     z-index: 999;
-    border: groove 1px;
+    border: solid 1px;
     border-bottom: 0px;
 }
-.menuFooter{
+
+.menuFooter {
     z-index: 999;
-    border: groove 1px;
+    border: solid 1px;
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    background-color: #eee862;
-    border-top:0px;
+    border-top: 0px;
     height: 5px;
 }
 
@@ -84,7 +84,7 @@ textarea {
 }
 
 .wideToolbarButton {
-    width: 90px;
+    width: 95px;
     color: #9ed3d9;
     background-color: #2B2926;
     border: 0px;
@@ -119,10 +119,6 @@ textarea {
 .toolbarMenuButton {
     margin-left: 0px;
     padding-left: 10px;
-}
-
-.toolbarMenuButton:hover {
-    background-color: cornflowerblue;
 }
 
 .labelReadOnly {
@@ -261,11 +257,11 @@ button {
 }
 
 .menuSeparator {
-    background-color: #fffad9;
     width: 130px;
-    height: 1px;
+    height: 0px;
     padding: 0px;
     margin: 0px;
+    border-bottom: solid 1px red;
 }
 
 .edit-label {
@@ -278,38 +274,6 @@ button {
     flex: 2;
     overflow: none;
     height: calc(100vh - 102px);
-}
-
-/* default theme */
-.default-theme-1 {
-    background-color: #bbd8f9 !important;
-    color: #111111;
-}
-
-.default-theme-2 {
-    background-color: #9ac0e9;
-    color: #111111;
-}
-
-.default-document {
-    background-color: whitesmoke;
-    color: #111111;
-}
-
-/* dark theme */
-.dark-theme-1 {
-    background-color: #111111;
-    color: #eee862;
-}
-
-.dark-theme-2 {
-    background-color: #333333;
-    color: #eee862;
-}
-
-.dark-document {
-    background-color: black;
-    color: #00DC00;
 }
 
 .closeEditorTabX {
