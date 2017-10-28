@@ -9,6 +9,11 @@
     color: #111111;
 }
 
+.default-theme-3 {
+    background-color: #c0deff;
+    color: #111111;
+}
+
 .default-document {
     background-color: whitesmoke;
     color: #111111;
@@ -33,6 +38,11 @@
     color: #eee862;
 }
 
+.dark-theme-3 {
+    background-color: #222222;
+    color: #eee862;
+}
+
 .dark-document {
     background-color: black;
     color: #00DC00;
@@ -44,4 +54,34 @@
 
 .dark-border {
     border-color: #A8A5A8 !important;
+}
+
+/* umate theme */
+.umate-theme-1 {
+    background-color: #45703f;
+    color: #caffb6;
+}
+
+.umate-theme-2 {
+    background-color: #116311;
+    color: #ffff4e;
+}
+
+.umate-theme-3 {
+    background-color: #cadb9b;
+    color: #111111;
+}
+
+.umate-document {
+    background-color: #F4F4F4;
+    color: #5A5A5A;
+}
+
+.umate-highlight:hover {
+    background-color: #DF4D1A;
+    color: #d7ffcf;
+}
+
+.umate-border {
+    border-color: #9d9d9d !important;
 }
