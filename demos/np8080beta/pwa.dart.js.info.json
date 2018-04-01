@@ -577,16 +577,6 @@
         ],
         "canonicalUri": "dart:html"
       },
-      "89168556": {
-        "id": "library/89168556",
-        "kind": "library",
-        "name": "<unnamed>",
-        "size": 145,
-        "children": [
-          "function/665442321"
-        ],
-        "canonicalUri": "file:///tmp/scratch_spaceAUIXHC/web/pwa.dart"
-      },
       "138933532": {
         "id": "library/138933532",
         "kind": "library",
@@ -925,6 +915,16 @@
           "function/508874693"
         ],
         "canonicalUri": "dart:_js_names"
+      },
+      "609333741": {
+        "id": "library/609333741",
+        "kind": "library",
+        "name": "<unnamed>",
+        "size": 145,
+        "children": [
+          "function/920097439"
+        ],
+        "canonicalUri": "file:///tmp/scratch_spacePQRTSM/web/pwa.dart"
       },
       "631335891": {
         "id": "library/631335891",
@@ -37598,29 +37598,6 @@
         "type": "JsLinkedHashMap.V Function(Object)",
         "measurements": null
       },
-      "665442321": {
-        "id": "function/665442321",
-        "kind": "function",
-        "name": "main",
-        "size": 145,
-        "outputUnit": "outputUnit/669725655",
-        "parent": "library/89168556",
-        "children": [],
-        "modifiers": {
-          "static": false,
-          "const": false,
-          "factory": false,
-          "external": false
-        },
-        "returnType": "void",
-        "inferredReturnType": "[null]",
-        "parameters": [],
-        "sideEffects": "SideEffects(reads anything; writes anything)",
-        "inlinedCount": 0,
-        "code": "function(){var z=new X.f7(new X.dC([]),null,!0,!0,null,null,null)\nz.b=$.$get$jU()\nP.d_(\"Running PWA, version: 2018-03-25T18:40:31.999Z\")\nX.la(z)}\n",
-        "type": "void Function()",
-        "measurements": null
-      },
       "665676035": {
         "id": "function/665676035",
         "kind": "function",
@@ -46246,6 +46223,29 @@
         "inlinedCount": 1,
         "code": null,
         "type": "bool Function()",
+        "measurements": null
+      },
+      "920097439": {
+        "id": "function/920097439",
+        "kind": "function",
+        "name": "main",
+        "size": 145,
+        "outputUnit": "outputUnit/669725655",
+        "parent": "library/609333741",
+        "children": [],
+        "modifiers": {
+          "static": false,
+          "const": false,
+          "factory": false,
+          "external": false
+        },
+        "returnType": "void",
+        "inferredReturnType": "[null]",
+        "parameters": [],
+        "sideEffects": "SideEffects(reads anything; writes anything)",
+        "inlinedCount": 0,
+        "code": "function(){var z=new X.f7(new X.dC([]),null,!0,!0,null,null,null)\nz.b=$.$get$jU()\nP.d_(\"Running PWA, version: 2018-03-25T18:40:31.999Z\")\nX.la(z)}\n",
+        "type": "void Function()",
         "measurements": null
       },
       "920500080": {
@@ -67302,40 +67302,6 @@
         "mask": "[subclass=JsLinkedHashMap]"
       }
     ],
-    "function/665442321": [
-      {
-        "id": "field/664440700",
-        "mask": "null"
-      },
-      {
-        "id": "function/15497432",
-        "mask": "null"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/39737075",
-        "mask": "null"
-      },
-      {
-        "id": "function/399195151",
-        "mask": "null"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "inlined"
-      },
-      {
-        "id": "function/532446373",
-        "mask": "null"
-      },
-      {
-        "id": "function/603971436",
-        "mask": "null"
-      }
-    ],
     "function/667149426": [
       {
         "id": "function/271674536",
@@ -72366,6 +72332,40 @@
         "mask": "null"
       }
     ],
+    "function/920097439": [
+      {
+        "id": "field/664440700",
+        "mask": "null"
+      },
+      {
+        "id": "function/15497432",
+        "mask": "null"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/39737075",
+        "mask": "null"
+      },
+      {
+        "id": "function/399195151",
+        "mask": "null"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "inlined"
+      },
+      {
+        "id": "function/532446373",
+        "mask": "null"
+      },
+      {
+        "id": "function/603971436",
+        "mask": "null"
+      }
+    ],
     "function/920500080": [
       {
         "id": "function/1009157688",
@@ -75505,12 +75505,12 @@
   "deferredFiles": {},
   "dump_minor_version": "0",
   "program": {
-    "entrypoint": "function/665442321",
+    "entrypoint": "function/920097439",
     "size": 189282,
     "dart2jsVersion": "2.0.0-dev.42.0",
-    "compilationMoment": "2018-03-27 20:08:20.592586",
-    "compilationDuration": 5624557,
-    "toJsonDuration": 54000,
+    "compilationMoment": "2018-04-01 20:14:03.610920",
+    "compilationDuration": 5628973,
+    "toJsonDuration": 55000,
     "dumpInfoDuration": 0,
     "noSuchMethodEnabled": false,
     "minified": true
