@@ -1,0 +1,163 @@
+/* default theme */
+.default-theme-1 {
+    background-color: #bbd8f9;
+    color: #111111;
+}
+
+.default-theme-2 {
+    background-color: #9ac0e9;
+    color: #111111;
+}
+
+.default-theme-3 {
+    background-color: #c0deff;
+    color: #111111;
+}
+
+.default-document {
+    background-color: whitesmoke;
+    color: #111111;
+}
+
+.default-highlight:hover {
+    background-color: lightgreen;
+}
+
+.default-border {
+    border-color: #94b1ff !important;
+}
+
+/* dark theme */
+.dark-theme-1 {
+    background-color: #111111;
+    color: #eee862;
+}
+
+.dark-theme-2 {
+    background-color: #333333;
+    color: #eee862;
+}
+
+.dark-theme-3 {
+    background-color: #222222;
+    color: #eee862;
+}
+
+.dark-document {
+    background-color: black;
+    color: #00DC00;
+}
+
+.dark-highlight:hover {
+    background-color: rgb(10, 102, 112);
+}
+
+.dark-border {
+    border-color: #A8A5A8 !important;
+}
+
+/* umate theme */
+.umate-theme-1 {
+    background-color: #45703f;
+    color: #caffb6;
+}
+
+.umate-theme-2 {
+    background-color: #116311;
+    color: #ffff4e;
+}
+
+.umate-theme-3 {
+    background-color: #cadb9b;
+    color: #111111;
+}
+
+.umate-document {
+    background-color: #F4F4F4;
+    color: #5A5A5A;
+}
+
+.umate-highlight:hover {
+    background-color: #DF4D1A;
+    color: #d7ffcf;
+}
+
+.umate-border {
+    border-color: #9d9d9d !important;
+}
+
+/* amber theme */
+.amber-theme-1 {
+    background-color: #050107;
+    color: #ff7418;
+}
+
+.amber-theme-2 {
+    background-color: #63281b;
+    color: #fef680;
+}
+
+.amber-theme-3 {
+    background-color: #050107;
+    color: #fef680;
+}
+
+.amber-document {
+    background-color: #060201;
+    color: #ff671f;
+}
+
+.amber-highlight:hover {
+    background-color: #ff7418;
+    color: #050107;
+}
+
+.amber-border {
+    border-color: #c47429 !important;
+}
+
+/* silverblue theme */
+.silverblue-theme-1 {
+    background-color: #0f1054;
+    color: #fff4f4;
+}
+
+.silverblue-theme-2 {
+    background-color: #283f91;
+    color: #c8f5f4;
+}
+
+.silverblue-theme-3 {
+    background-color: #0e0938;
+    color: #84c8c7;
+}
+
+.silverblue-document {
+    background-color: #0f1054;
+    color: #fff4f4;
+}
+
+.silverblue-highlight:hover {
+    background-color: #283f91;
+    color: #84c8c7;
+}
+
+.silverblue-border {
+    border-color: #3096c4 !important;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f0f0f0;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #777;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #444;
+}
