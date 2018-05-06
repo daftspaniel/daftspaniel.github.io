@@ -12,23 +12,12 @@
 
     <script defer src="main.dart.js"></script>
 
-    <link rel="stylesheet" href="css/normalize.css?v0.0.29"/>
-    <link rel="stylesheet" href="css/style.css?v0.0.29"/>
-    <link rel="stylesheet" href="css/dialog.css?v0.0.29"/>
-    <link rel="stylesheet" href="css/themes.css?v0.0.29"/>
-    <script type="application/javascript">
-        function keyfilter(event) {
-            console.log('KEYFILTER')
-            if (event.keyCode === 34 || event.keyCode === 35){
-                console.log('HIT')
-                event.stopPropagation();
-                return false;
-            }
-        }
-        document.addEventListener("keydown", keyfilter, false);
-    </script>
+    <link rel="stylesheet" href="css/normalize.css?v0.0.31"/>
+    <link rel="stylesheet" href="css/style.css?v0.0.31"/>
+    <link rel="stylesheet" href="css/dialog.css?v0.0.31"/>
+    <link rel="stylesheet" href="css/themes.css?v0.0.31"/>
 </head>
-<body onkeydown="keyfilter(event)">
-<np8080-app>Loading Notepad8080 v0.0.29</np8080-app>
+<body>
+<np8080-app>Loading Notepad8080 v0.0.31</np8080-app>
 </body>
 </html>
